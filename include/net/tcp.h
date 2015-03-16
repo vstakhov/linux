@@ -178,6 +178,9 @@ void tcp_time_wait(struct sock *sk, int state, int timeo);
  * experimental options. See draft-ietf-tcpm-experimental-options-00.txt
  */
 #define TCPOPT_FASTOPEN_MAGIC	0xF989
+/* draft-briscoe-tcpm-inspace-mode-tcpbis-00 */
+#define TCPOPT_INSPC_MAGICA	0x28017f38
+#define TCPOPT_INSPC_MAGICB	0x1f51
 
 /*
  *     TCP option lengths
